@@ -1,0 +1,72 @@
+body{
+    width: 480px;
+    margin: auto;
+}
+div{
+    height: 300px;
+    border: solid 2px black;
+    background: #888;
+    box-sizing: border-box; 
+    text-align: center
+  }     
+div:children{
+    padding: 50%;
+    vertical-align: -webkit-baseline-middle;
+}
+#a{
+    height: 75px;
+}  
+#b{
+    height: 150px;
+}
+#c, #d{
+    height: 125px;
+}
+#e, #f, #g, #h{
+    height: 250px;
+    width: 240px;
+    float: left;
+}
+@media (max-width: 959px){
+#i{
+    clear: left;
+    height: 80px;
+    width: 100%;
+}
+}
+  @media (min-width: 960px) {
+    /* I can contain the divs */
+    body {
+      width: 960px;
+    }
+    
+    div {
+      background-color: blue;
+      height: 300px;
+      border: solid 2px black;
+      background: #999;
+      box-sizing: border-box;
+    }
+    #b{
+        width: 200px;
+        height: 600px;
+        float: left
+    }
+    #c, #d{
+        height: 200px;
+        width: 380px;
+        float: left;
+    }
+    #e, #f, #g, #h{
+        height: 250px;
+        width: 190px;
+        float: left;
+    }
+    
+    #i{
+        float: left;
+        height: 150px;
+        width: 760px;
+    }
+  }
+  
