@@ -1,0 +1,111 @@
+#a{
+    height: 75px;
+    width: 480px;
+    line-height: 75px;
+    background: rgb(11, 80, 11);
+    width: 100%
+}  
+#b{
+    height: 150px;
+    width: 480px;
+    line-height: 150px;
+    background: violet;
+}
+#c, #d{
+    height: 125px;
+    width: 480px;
+    line-height: 125px;
+    background: aqua;
+}
+#d {
+    width: 480px;
+    background: teal;
+}
+#e, #f, #g, #h{
+    height: 250px;
+    line-height: 250px;
+    width: 240px;
+    background: aliceblue;
+}
+#f{
+    background: #222;
+}
+#g{
+    background:#333;
+}
+#h{
+    background:#888;
+}
+@media (max-width: 959px){
+    body{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    #i{
+        clear: left;
+        height: 80px;
+        line-height: 80px;
+        width: 480px;
+        background: crimson;
+    }
+    }
+      @media (min-width: 960px) {
+        /* I can contain the divs */
+        body {
+          flex-flow: row-wrap;
+          width: 960px;
+        }
+        
+        div {
+          background-color: blue;
+          height: 300px;
+          line-height: 300px;
+          border: solid 2px black;
+          float: left;
+          background: #999;
+          box-sizing: border-box;
+        }
+        #a{
+            width: 960px;
+            height: 100px;
+            background: maroon;
+        }
+        #b{
+            width: 200px;
+            height: 600px;
+            line-height: 600px;
+            background: skyblue;
+        }
+        #c, #d{
+            height: 200px;
+            line-height: 200px;
+            width: 380px;
+            background: seagreen;
+        }
+        #d{
+            background: greenyellow;
+        }
+        #e, #f, #g, #h{
+            height: 250px;
+            line-height: 250px;
+            width: 190px;
+            background: blue;
+        }
+        #f{
+            background:darkblue;
+        }
+        #g{
+            background: darkcyan;
+        }
+        #h{
+            background: darkgoldenrod;
+        }
+        
+        #i{
+            height: 150px;
+            line-height: 150px;
+            width: 760px;
+            background: green;
+        }
+      }
+      
