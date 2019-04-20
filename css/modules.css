@@ -52,9 +52,8 @@
       @media (min-width: 960px) {
         /* I can contain the divs */
         body {
-          display: flex;
+          flex-flow: row-wrap;
           width: 960px;
-          
         }
         
         div {
@@ -62,6 +61,7 @@
           height: 300px;
           line-height: 300px;
           border: solid 2px black;
+          float: left;
           background: #999;
           box-sizing: border-box;
         }
