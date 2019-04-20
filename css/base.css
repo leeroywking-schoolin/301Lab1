@@ -1,9 +1,6 @@
 body{
     width: 480px;
     margin: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content:
 }
 div{
     height: 300px;

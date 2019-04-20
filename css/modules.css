@@ -37,6 +37,10 @@
     background:#888;
 }
 @media (max-width: 959px){
+    body{
+        display: flex;
+        flex-flow: row wrap;
+    }
     #i{
         clear: left;
         height: 80px;
@@ -48,7 +52,9 @@
       @media (min-width: 960px) {
         /* I can contain the divs */
         body {
+          display: flex;
           width: 960px;
+          
         }
         
         div {
